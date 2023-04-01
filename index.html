@@ -5,9 +5,509 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DFTech - Curso de Informática Básica</title>
+
+    <style>
+        /*seletor e propriedade*/
+        body{
+            background-color: #bcdbf8;
+        }
+        #topo{
+            background-color: #AE1CF5;
+            width:100%;
+            height:50px;
+        }
+        /*classe*/
+        .azul{
+            color: blue;
+        }
+        .verde{
+            color: green;
+        }
+        .card{
+            width:100%;
+            height:100%;
+            border: solid 3px #ad33ff;
+        }
+
+    </style>
 </head>
 <body>
-    <h1>Curso de Informática Básica</h1>
-    <h3>Olá, bão?</h3>
+
+    <div id="topo">
+    </div>
+
+    <h1 style="color: blue;" > Curso de Informática Básica</h1>
+
+<h2> Conteúdo Programático </h2>
+<h3><a href="#card1"> Módulo I- Introdução à Informática </h3></a>
+
+
+<div class="card">
+    <p>
+<h4 style="color: blue;" ><a href="#card1"> Fundamentos de hardware </h4></a>
+<ol><li><a href="#card1"> Definição</li></a>
+<li><a href="#card2">Evolução</li></a>
+<li> <a href="#card3">Arquitetura </a>
+   <ol><li> <a href="#card3">componentes</li></a>
+    <li> <a href="#card3">periféricos</li></ol></a>
+<li> <a href="#card4">Funcionamento</li></a>
+</ol></p>
+</div>
+
+<div class="card">
+    <p>
+<h4 style="color: blue;" > <a href="#card5">Fundamentos do software </h4></a>
+<ol>
+
+<li> <a href="#card5">Definição</li>  </a>
+<li> <a href="#card6">Evolução</li>  </a>
+<li> <a href="#card7">Tipos e características</li> </a>
+</ol></p>
+</div>
+
+<div class="card">
+    <p>
+<h4 style="color: blue;" > <a href="#card8"> Fundamentos de protocolos</h4></a>
+<ol>
+
+<li> <a href="#card8">Definição</li></a>   
+<li> <a href="#card9">Evolução</li>   </a>
+<li> <a href="#card10">Tipos e características </a>
+<ol>  
+<li> <a href="#card10">Classificação</li></a>
+<li> <a href="#card10">Estrutura</li></a>
+<li> <a href="#card10">Modelos</li></a>
+<li> <a href="#card10">HTTP</li> </a>
+<li> <a href="#card10">FTP</li> </a>
+<li> <a href="#card10">SMTP</li></a>
+</ol> 
+</ol> </p>
+</div>
+
+<h3 style="color: blue;" > <a href="#card11"> Módulo II - Sistemas Operacionais</h3>
+
+    <div class="card">
+        <p>
+<h4 style="color: blue;" > <a href="#card11"> SISTEMA OPERACIONAL</h4> 
+<ol>
+<li> <a href="#card12">Evolução </li></a>
+<li><a href="#card13">Definição </li></a>
+<li><a href="#card14">Classificação </li></a>
+<li><a href="#card15">Aplicação </li></a>
+<li><a href="#card16">Arquitetura </li></a>
+<ol>
+    <li><a href="#card16"> Definição </li></a>
+    <li><a href="#card16">Componentes </li></a>
+</ol>
+<li><a href="#card17">Trabalho com janelas</li> </a>
+<li><a href="#card18">Área de trabalho </li></a>
+<li><a href="#card19">Área de notificação </li></a>
+<li><a href="#card20">Configuração do sistema </li></a>
+<li><a href="#card21">Principais aplicativos </li></a>
+<li><a href="#card22">Menu de ajuda</li> </a>
+<li><a href="#card23">Gerenciamento de Arquivos
+<li><a href="#card24">Gerenciamento de usuários e permissões </li></a>
+<li><a href="#card25">Estrutura de Diretórios </li></a>
+<li><a href="#card26">Atualização do sistema operacional aplicativos </li></a>
+</ol></p>
+</div>
+
+<div class="card">
+    <p>
+<h4 style="color: blue;" ><a href="#card27">COMANDOS DE SHELL BÁSICO </h4></a>
+<ol>
+<li><a href="#card27"> Diretórios: </a>
+    <ol><li><a href="#card27">Navegação </li></a>
+        <li><a href="#card27">Criação </li></a>
+        <li><a href="#card27">Exclusão </li> </a></ol>
+<li><a href="#card28">Arquivos</a>
+    <ol><li><a href="#card28">Criação</li></a>
+        <li><a href="#card28">Exclusão </li> </a></ol>
+<li><a href="#card29">Alteração de nome </li> </a>
+<li><a href="#card30">Classificação </li> </a>
+<li><a href="#card31"> Visualização </li> </a>
+<li><a href="#card32">Pesquisa </li> </a>
+<li><a href="#card33">Ferramentas de edição de texto </li> </a>
+</ol></p>
+</div>
+
+<div class="card">
+    <p>
+<h4 style="color: blue;" ><a href="#card34">CATEGORIAS DE SOFTWARES </h4></a>
+<ol>
+    <li><a href="#card35">Conceitos e Aplicações </li> </a>
+    
+</ol>
+ </ol>  </p>
+</div> 
+
+ <!-- Cartões usando a teoria do Flow -->
+
+ <h2>Módulo I- Introdução à Informática </h2>
+
+ <h3 style="color: blueviolet;" > Fundamentos de hardware </h3>
+ <h4 style="color: blue;" > Definição </h4>
+     <div class="card">
+     <p id="card1">Os fundamentos de hardware são os componentes físicos e equipamentos utilizados para construir um sistema computacional ou dispositivo eletrônico. Isso inclui a placa-mãe, processador, memória RAM, disco rígido, placa de vídeo, fonte de alimentação e periféricos. Esses componentes trabalham juntos para permitir que o sistema execute suas funções e realize tarefas. Em resumo, o hardware é a parte física do sistema, enquanto o software é a parte lógica que é executada pelo hardware. </p>
+  </div>
+
+  <h4 style="color: blue;" > Arquitetura (Componentes e Periféricos) </h4>
+     
+  <div class="card">
+      <p id="card2"> A arquitetura de um sistema computacional inclui componentes como CPU, memória e dispositivos de entrada/saída. A CPU é responsável por executar as instruções, a memória armazena dados temporariamente e os dispositivos de entrada/saída permitem a entrada/saída de dados.</p>
+   </div>
+
+   
+  <h4 style="color: blue;" >Funcionamento </h4>
+     
+  <div class="card">
+      <p id="card3"> O hardware é o conjunto de componentes físicos de um computador que trabalham juntos para executar tarefas. O processador é o cérebro do computador, a memória armazena informações temporariamente e o disco rígido armazena informações permanentemente. </p>
+   </div>
+  
+   <h3 style="color: blueviolet;" >Fundamentos do Software</h3>
+   <h4 style="color: blue;" >Definição </h4>
+     
+   <div class="card">
+       <p id="card4"> Software, em computação, refere-se a um conjunto de programas, instruções e dados que permitem ao computador realizar tarefas específicas. O software é composto por programas de sistema, que controlam o funcionamento do computador, e por programas de aplicação, que são desenvolvidos para realizar tarefas específicas, como edição de texto, navegação na internet, jogos, entre outros.
+
+        O software é fundamental para o funcionamento de um computador, pois permite que os usuários realizem uma variedade de tarefas, desde as mais simples até as mais complexas. O software pode ser instalado em um computador a partir de um CD ou DVD, ou pode ser baixado da internet. Existem diferentes tipos de licenças de software, que variam de acordo com as restrições de uso, como licenças gratuitas, licenças comerciais e licenças de código aberto. O software também pode ser atualizado regularmente para corrigir bugs e falhas de segurança, ou para adicionar novos recursos e funcionalidades. </p>
+    </div>
+    
+    <h4 style="color: blue;" >Evolução </h4>
+     
+    <div class="card">
+        <p id="card5"> A evolução dos softwares tem sido constante desde os primeiros dias da computação. No início, os programas eram criados em linguagens de baixo nível, o que significava que o programador tinha que escrever o código diretamente em linguagem de máquina. Com a introdução das linguagens de programação de alto nível, como COBOL e FORTRAN, os programas se tornaram mais fáceis de escrever e de depurar.
+
+            Nos anos 80 e 90, a popularização dos computadores pessoais e a expansão da internet impulsionaram o desenvolvimento de softwares de produtividade, como processadores de texto, planilhas eletrônicas e bancos de dados. A evolução dos softwares também levou ao desenvolvimento de sistemas operacionais mais avançados, como o Windows e o MacOS, que tornaram os computadores mais fáceis de usar e mais acessíveis a um público maior. Nos últimos anos, a evolução dos softwares tem sido impulsionada pela computação em nuvem, inteligência artificial e machine learning, que estão revolucionando a maneira como as pessoas usam os computadores e as tecnologias relacionadas.
+             </p>
+     </div>
+
+     <h4 style="color: blue;" >Tipos e características </h4>
+     
+     <div class="card">
+         <p id="card6"> Os softwares podem ser divididos em diferentes tipos, de acordo com sua função e forma de distribuição. Os principais tipos de softwares incluem:
+
+            Software de sistema: são programas que controlam o funcionamento do computador, como o sistema operacional, drivers de dispositivos, utilitários de sistema, entre outros.
+            Software de aplicação: são programas desenvolvidos para realizar tarefas específicas, como edição de texto, planilhas eletrônicas, jogos, entre outros.
+            Software de código aberto: são softwares cujo código-fonte é disponibilizado publicamente, permitindo que desenvolvedores possam modificá-lo e distribuí-lo livremente.
+            Software proprietário: são softwares cujo código-fonte é protegido por direitos autorais, e só podem ser utilizados mediante a aquisição de licenças.
+            Software gratuito: são softwares que podem ser utilizados sem custo, mas podem ter restrições de uso e distribuição.
+            
+            As características dos softwares podem variar de acordo com sua função e finalidade. Algumas características comuns incluem:
+            
+            Interface de usuário: os softwares podem ter interfaces gráficas, textuais ou de linha de comando, que permitem ao usuário interagir com o programa.
+            Compatibilidade: alguns softwares são compatíveis com diferentes sistemas operacionais ou plataformas, enquanto outros são específicos para um sistema ou plataforma.
+            Personalização: muitos softwares permitem que o usuário personalize suas configurações e recursos de acordo com suas necessidades.
+            Segurança: os softwares podem ser projetados para serem seguros, protegendo dados e informações pessoais dos usuários.
+            Atualizações: muitos softwares são atualizados regularmente para corrigir bugs, falhas de segurança e adicionar novos recursos e funcionalidades. </p>
+      </div>
+
+      <h3 style="color: blueviolet;" >Fundamentos de Protocolos</h3>
+      <h4 style="color: blue;" >Evolução </h4>
+     
+      <div class="card">
+          <p id="card7"> "Evolução se refere ao processo gradual de mudança e desenvolvimento ao longo do tempo. Esse termo é comumente usado na biologia para descrever o processo pelo qual as espécies se modificam e se adaptam ao ambiente ao longo de gerações sucessivas. Entretanto, o termo também pode ser aplicado em outras áreas, como a tecnologia e a sociedade, onde ele descreve o processo de mudança e desenvolvimento ao longo do tempo, seja em termos de progresso tecnológico, mudanças culturais ou transformações políticas e sociais."</p>
+       </div>
+
+       <h4 style="color: blue;" >Definição </h4>
+     
+       <div class="card">
+           <p id="card8"> Os fundamentos de protocolo são as bases que regem a comunicação entre dispositivos em uma rede. Eles são compostos por um conjunto de regras e procedimentos que definem como os dados são transmitidos, recebidos e processados na rede. Esses protocolos asseguram que a comunicação entre dispositivos seja confiável. </p>
+        </div>
+
+        <h4 style="color: blue;" >Classificação </h4>
+     
+        <div class="card">
+            <p id="card9"> (TCP/IP/HTTP/FTP/DNS) </p>
+         </div>
+
+         <h4 style="color: blue;" >Aplicação </h4>
+     
+         <div class="card">
+             <p id="card10"> São aplicados em transmissão de dados, cibersegurança, eficiência da rede e garantir a interoperabilidade, segurança e eficiência de uma rede. </p>
+          </div>
+
+          <h4 style="color: blue;" >Arquitetura </h4>
+     
+          <div class="card">
+              <p id="card11"> A arquitetura de um sistema operacional geralmente é dividida em duas partes principais: o kernel, responsável pela interação direta com o hardware e gerenciamento de recursos, e os processos de usuário, que são executados em um ambiente protegido pelo kernel e podem interagir com dispositivos e serviços através de chamadas de sistema. Além disso, o kernel pode ser monolítico, modular ou híbrido, dependendo da forma como os componentes são organizados e gerenciados. </p>
+           </div>
+
+           <h4 style="color: blue;" >Componentes </h4>
+     
+           <div class="card">
+               <p id="card12"> Os componentes de um sistema operacional incluem o kernel, que gerencia recursos do hardware; os drivers de dispositivos, que permitem a comunicação entre o sistema e o hardware; o gerenciador de processos, que gerencia a execução de programas; e o sistema de arquivos, que gerencia o armazenamento e acesso a dados. </p>
+            </div>
+            
+            <h2>Módulo II - Sistemas Operacionais </h2>
+            <h3 style="color: blueviolet;" > SISTEMA OPERACIONAL </h3>
+
+            <h4 style="color: blue;" >Evolução </h4>
+     
+            <div class="card">
+                <p id="card13"> Os sistemas operacionais evoluíram significativamente desde o primeiro sistema operacional criado em 1956. A evolução dos sistemas operacionais foi impulsionada pelo desenvolvimento contínuo da tecnologia de computadores e pelas necessidades dos usuários. Nos primeiros sistemas operacionais, a interação do usuário com o sistema era feita por meio de cartões perfurados, mas com o tempo, os sistemas operacionais evoluíram para incluir interfaces gráficas de usuário, sistemas distribuídos e sistemas de tempo real. </p>
+             </div>
+
+             <h4 style="color: blue;" >Definição </h4>
+     
+             <div class="card">
+                 <p id="card14"> Um sistema operacional é um software que gerencia o hardware de um computador e fornece uma interface para que os usuários interajam com o computador. O sistema operacional é responsável pelo gerenciamento dos recursos do computador, como processadores, memória, dispositivos de entrada e saída, rede e armazenamento. Ele permite que os aplicativos sejam executados em um ambiente seguro e eficiente. </p>
+              </div>
+
+              <h4 style="color: blue;" >Classificação </h4>
+     
+              <div class="card">
+                  <p id="card15"> Os sistemas operacionais podem ser classificados de várias maneiras, incluindo pelo tipo de interface de usuário, pelo método de processamento e pelo objetivo de uso. Algumas das classificações comuns incluem:
+
+                    Interface de usuário:
+                    Interface de linha de comando (CLI)
+                    Interface gráfica do usuário (GUI)
+                    Interface de voz
+                    Método de processamento:
+                    Monotarefa
+                    Multitarefa
+                    Objetivo de uso:
+                    Desktop
+                    Servidor
+                    Embarcado
+                    Tempo real </p>
+               </div>
+
+               <h4 style="color: blue;" >Aplicação </h4>
+     
+               <div class="card">
+                   <p id="card16"> Os sistemas operacionais são usados em uma ampla variedade de dispositivos, desde computadores pessoais a smartphones, servidores, sistemas de controle industrial e sistemas embarcados. Eles são essenciais para o funcionamento desses dispositivos, pois gerenciam os recursos do hardware e permitem que os aplicativos sejam executados. </p>
+                </div>
+
+                <h4 style="color: blue;" >Arquitetura </h4>
+     
+                <div class="card">
+                    <p id="card17"> A arquitetura do sistema operacional é a estrutura interna do sistema operacional que define como os diferentes componentes do sistema operacional interagem entre si para fornecer serviços aos usuários e aos aplicativos que estão sendo executados no computador. A arquitetura do sistema operacional geralmente consiste em várias camadas que são organizadas hierarquicamente. Essas camadas são projetadas para executar tarefas específicas, e cada camada é responsável por fornecer serviços às camadas acima dela. </p>
+                 </div>
+
+                 <h4 style="color: blue;" >Trabalho com janelas
+                </h4>
+     
+                 <div class="card">
+                     <p id="card18">Os sistemas operacionais modernos usam uma interface gráfica do usuário (GUI) que permite aos usuários interagir com o computador por meio de janelas. As janelas podem ser redimensionadas, movidas e minimizadas ou maximizadas. </p>
+                  </div>
+
+                  <h4 style="color: blue;" >Área de trabalho
+                </h4>
+     
+                  <div class="card">
+                      <p id="card19">A área de trabalho é o espaço na tela em que os usuários podem colocar ícones de atalho para programas, arquivos e pastas que são frequentemente usados. A área de trabalho pode ser personalizada para atender às necessidades do usuário. </p>
+                   </div>
+                   
+                   <h4 style="color: blue;" >Área de notificação
+                </h4>
+     
+                   <div class="card">
+                       <p id="card20">A área de notificação é uma área na barra de tarefas do sistema operacional que exibe informações sobre o sistema e os aplicativos em execução. Isso inclui o relógio, o ícone do volume e outros ícones de notificação. </p>
+                    </div>
+
+                    <h4 style="color: blue;" >Configuração do sistema
+                    </h4>
+     
+                    <div class="card">
+                        <p id="card21">A configuração do sistema é a maneira como os usuários podem personalizar o sistema operacional de acordo com suas necessidades. Isso inclui coisas como a aparência da interface, a velocidade da conexão com a Internet, as opções de energia e muito mais. </p>
+                     </div>
+
+                     <h4 style="color: blue;" >Principais aplicativos
+                    </h4>
+     
+                     <div class="card">
+                         <p id="card22">Os sistemas operacionais vêm com uma variedade de aplicativos pré-instalados para permitir que os usuários realizem tarefas comuns, como navegar na Internet, enviar e-mails, escrever documentos, visualizar imagens e reproduzir música e vídeos. </p>
+                      </div>
+
+                      <h4 style="color: blue;" >Menu de ajuda
+                    </h4>
+     
+                      <div class="card">
+                          <p id="card23">O menu de ajuda é uma opção em muitos aplicativos e no sistema operacional que permite aos usuários acessar documentação e suporte técnico para ajudá-los a entender e usar o software. </p>
+                       </div>
+
+                       <h4 style="color: blue;" >Gerenciamento de Arquivos
+                    </h4>
+     
+                       <div class="card">
+                           <p id="card24">O gerenciamento de arquivos é a maneira como os usuários podem organizar, criar e excluir arquivos e pastas em seus computadores. Isso inclui coisas como nomear arquivos, movê-los para diferentes pastas, criar pastas e excluir arquivos indesejados. Um bom gerenciamento de arquivos é fundamental para manter um sistema organizado e eficiente. </p>
+                        </div>
+
+                        <h4 style="color: blue;" >Gerenciamento de usuários e permissões </h4>
+     
+                        <div class="card">
+                            <p id="card25"> O gerenciamento de usuários e permissões em um sistema operacional é organizado por meio de contas de usuário e grupos de usuários. Cada usuário é identificado por um nome de usuário exclusivo e uma senha associada. O sistema operacional usa essas contas de usuário para controlar o acesso aos recursos do sistema, como arquivos, pastas, programas e outros dispositivos.	
+	
+                                O gerenciamento de permissões é organizado em níveis de acesso. O sistema operacional define diferentes níveis de acesso para diferentes tipos de recursos, permitindo que os usuários tenham acesso somente aos recursos que são necessários para realizar suas tarefas.	
+                                    
+                                Os usuários são geralmente atribuídos a grupos que têm permissões predefinidas. Os grupos são usados para agrupar usuários com necessidades semelhantes de acesso a recursos. Por exemplo, um grupo pode ser criado para os administradores do sistema, que têm acesso a todos os recursos do sistema, enquanto outro grupo pode ser criado para usuários regulares que têm acesso limitado a recursos específicos.	
+                                    
+                                As permissões são controladas por meio de listas de controle de acesso (ACLs), que especificam quais usuários ou grupos têm permissão para acessar ou modificar um recurso específico. As ACLs são definidas pelo administrador do sistema e podem ser alteradas conforme necessário.	
+                                    
+                                Em sistemas operacionais modernos, como o Windows e o macOS, existem interfaces gráficas de usuário (GUIs) que permitem que o administrador do sistema gerencie facilmente contas de usuário, grupos e permissões. As ferramentas de gerenciamento de usuários e permissões são usadas para criar e excluir contas de usuário, adicionar e remover usuários de grupos e definir permissões para diferentes recursos do sistema.	
+                                     </p>
+                         </div>
+
+                         <h4 style="color: blue;" >Estrutura de Diretórios </h4>
+     
+                         <div class="card">
+                             <p id="card26"> A estrutura de diretórios em um sistema operacional é organizada hierarquicamente em uma árvore de diretórios. Cada diretório pode conter arquivos e outros subdiretórios. O sistema de arquivos em um sistema operacional é organizado dessa forma para fornecer uma maneira lógica e consistente de organizar os arquivos e diretórios em uma unidade de armazenamento, como um disco rígido.
+
+                                A raiz da árvore de diretórios é o diretório principal e é indicado pelo símbolo "/" em sistemas Unix e Linux e pelo nome da unidade de armazenamento (como C:) em sistemas Windows. A partir da raiz, os diretórios são organizados em níveis, onde cada nível representa um subdiretório do diretório anterior.
+                                
+                                Por exemplo, em sistemas Unix e Linux, o diretório raiz contém diretórios como "bin", "usr", "etc", "home" e outros. O diretório "bin" contém arquivos executáveis ​​do sistema, o diretório "usr" contém programas instalados pelo usuário, o diretório "etc" contém arquivos de configuração do sistema e o diretório "home" contém diretórios pessoais para cada usuário do sistema.
+                                
+                                Em sistemas Windows, o diretório raiz é a unidade de armazenamento (por exemplo, C:) e contém diretórios como "Windows", "Program Files", "Users" e outros. O diretório "Windows" contém arquivos do sistema, o diretório "Program Files" contém programas instalados pelo usuário e o diretório "Users" contém diretórios pessoais para cada usuário do sistema.
+                                
+                                Os usuários podem criar seus próprios diretórios e subdiretórios para organizar seus arquivos de acordo com suas necessidades e preferências. O sistema de arquivos do sistema operacional geralmente fornece ferramentas para criar, renomear, mover e excluir diretórios e arquivos de forma fácil e intuitiva. </p>
+                          </div>
+
+                          <h4 style="color: blue;" >Atualização do sistema operacional aplicativos </h4>
+     
+                          <div class="card">
+                              <p id="card27"> A atualização de um sistema operacional geralmente envolve a instalação de um conjunto de patches e atualizações de segurança que corrigem vulnerabilidades conhecidas e melhoram o desempenho e a estabilidade do sistema. Essas atualizações podem ser fornecidas por meio de atualizações automáticas ou por meio de downloads manuais do fabricante do sistema operacional.
+
+                                As atualizações de um sistema operacional geralmente afetam todos os aspectos do sistema operacional, incluindo o kernel, drivers, bibliotecas e aplicativos do sistema. Elas podem ser mais complexas do que as atualizações de aplicativos devido ao tamanho e à complexidade do sistema operacional e ao fato de que as atualizações precisam ser testadas e validadas em uma ampla variedade de configurações de hardware e software antes de serem disponibilizadas para os usuários.
+                                
+                                A atualização de um aplicativo, por outro lado, normalmente envolve a instalação de uma nova versão do software que inclui novos recursos, correções de bugs e melhorias de desempenho. Essas atualizações são geralmente menores do que as atualizações de sistema operacional e podem ser instaladas de forma mais rápida e fácil. Além disso, as atualizações de aplicativos geralmente afetam apenas o aplicativo em questão e não afetam outros aspectos do sistema operacional.
+                                
+                                É importante manter tanto o sistema operacional quanto os aplicativos atualizados para garantir a segurança e o bom funcionamento do sistema. As atualizações do sistema operacional podem ser mais críticas, pois afetam o sistema como um todo, enquanto as atualizações de aplicativos geralmente são menos críticas, mas ainda são importantes para manter os aplicativos funcionando corretamente e com segurança. </p>
+                           </div>
+
+                           <h3 style="color: blueviolet;" > Comandos de Shell Básico </h3>
+
+                           <h4 style="color: blue;" >Diretórios </h4>
+     
+                           <div class="card">
+                               <p id="card28"> "Em comandos de shell, um diretório é uma estrutura usada para armazenar arquivos e outros diretórios em uma hierarquia organizada. Os diretórios são criados usando o comando ""mkdir"" e são referenciados em comandos de shell usando caminhos de diretório que especificam a localização do diretório no sistema de arquivos.
+
+                                Os diretórios são uma parte fundamental do sistema de arquivos em comandos de shell, e são frequentemente usados para organizar e gerenciar arquivos em sistemas operacionais baseados em Unix. Ao navegar pelo sistema de arquivos, os usuários podem se mover entre diferentes diretórios e acessar arquivos e subdiretórios em cada diretório. Os diretórios também podem ser usados para proteger a privacidade dos arquivos, permitindo que os usuários restrinjam o acesso a arquivos e diretórios específicos com base em suas permissões de acesso."
+                                "Navegação em comandos de shell refere-se ao processo de se mover entre diferentes diretórios em um sistema de arquivos usando comandos de shell. A navegação geralmente é necessária quando um usuário precisa acessar ou trabalhar com arquivos em diferentes diretórios em um sistema operacional baseado em Unix. A navegação pode ser realizada usando uma variedade de comandos, como ""cd"" (change directory), ""ls"" (list), ""pwd"" (print working directory) e ""mkdir"" (make directory), entre outros.
+                                
+                                O comando ""cd"" é frequentemente usado para mudar de diretório, enquanto o comando ""ls"" é usado para listar o conteúdo do diretório atual. O comando ""pwd"" é usado para mostrar o caminho do diretório atual, e o comando ""mkdir"" é usado para criar um novo diretório. A navegação eficiente em comandos de shell é essencial para usuários que precisam trabalhar com arquivos em diferentes diretórios e é uma habilidade fundamental em sistemas operacionais baseados em Unix."
+                                "Em comandos de shell, criação refere-se ao processo de criar novos arquivos ou diretórios em um sistema de arquivos. Para criar um arquivo, é necessário especificar o nome e o tipo de arquivo que se deseja criar, além de seu conteúdo. Já para criar um diretório, é necessário especificar o nome do diretório que se deseja criar. Existem vários comandos de shell que podem ser usados para criar arquivos e diretórios, como ""touch"", ""echo"", ""cp"" e ""mkdir"".
+                                
+                                O comando ""touch"" é frequentemente usado para criar um novo arquivo vazio, enquanto o comando ""echo"" é usado para criar um arquivo e adicionar conteúdo a ele. O comando ""cp"" é usado para copiar um arquivo existente para um novo arquivo, enquanto o comando ""mkdir"" é usado para criar um novo diretório. A criação de arquivos e diretórios é uma tarefa essencial em comandos de shell e é frequentemente usada por usuários para gerenciar seus arquivos e pastas em sistemas operacionais baseados em Unix." </p>
+                            </div>
+
+                            <h4 style="color: blue;" >Arquivos </h4>
+     
+                            <div class="card">
+                                <p id="card29"> ls:	lista os todos diretorios
+                                    cd ..	Voltar para o diretório anterior:
+                                        
+                                    novo item (New-Item)	New-Item "nome do quivo" "extenção do arquivo" 
+                                    Exclusão	A exclusão no comando de shell básico é uma funcionalidade que permite aos usuários remover arquivos e diretórios do sistema. Existem vários comandos de exclusão disponíveis, incluindo "rm", "rmdir" e "unlink", cada um com suas próprias opções e funcionalidades específicas. No entanto, é importante ter cuidado ao usar esses comandos, pois eles podem excluir arquivos e diretórios de forma permanente e irreversível. Por isso, é recomendável sempre fazer backup dos dados importantes antes de realizar qualquer operação de exclusão no sistema. </p>
+                             </div>
+
+                             <h4 style="color: blue;" >Alteração de nome </h4>
+     
+                             <div class="card">
+                                 <p id="card30"> A alteração de nome no comando de shell básico é uma funcionalidade que permite aos usuários renomear arquivos e diretórios no sistema. O comando "mv" (move) é o principal comando utilizado para esta operação, permitindo mover um arquivo ou diretório de um local para outro e/ou renomeá-lo. É importante ter cuidado ao usar este comando, pois ele pode sobrescrever arquivos existentes sem aviso prévio. Além disso, é recomendável sempre fazer backup dos dados importantes antes de realizar qualquer operação de alteração de nome no sistema. </p>
+                              </div>
+
+                              <h4 style="color: blue;" >Classificação </h4>
+     
+                              <div class="card">
+                                  <p id="card31"> A classificação no comando de shell básico é uma funcionalidade que permite aos usuários ordenar e classificar arquivos e diretórios com base em diferentes critérios, como nome, tamanho, data de criação, entre outros. O comando "ls" (list) é o principal comando utilizado para esta operação, permitindo listar o conteúdo de um diretório com diferentes opções de classificação. A classificação é útil para encontrar rapidamente arquivos e diretórios específicos, bem como para visualizar informações sobre o tamanho e a data de criação dos arquivos. Existem várias opções disponíveis no comando "ls" para classificar e ordenar o conteúdo do diretório, e é importante entender bem essas opções para obter os resultados desejados. </p>
+                               </div>
+
+                               
+                              <h4 style="color: blue;" >Visualização </h4>
+     
+                              <div class="card">
+                                  <p id="card32"> 	O comando "Visualização" no shell se refere a um conjunto de comandos e ferramentas que permitem visualizar o conteúdo de arquivos de texto ou diretórios diretamente no terminal ou console.
+                                    cat:	Exibe o conteúdo de um arquivo de texto diretamente no terminal.
+                                    less:	 Abre o conteúdo de um arquivo de texto em um visualizador que permite navegar para cima e para baixo, pesquisar e procurar palavras-chave.
+                                    head e tail:	Exibem as primeiras ou últimas linhas de um arquivo de texto, respectivamente.
+                                    tree:	Exibe uma visualização em árvore dos diretórios e arquivos em um sistema de arquivos.
+                                    ls:	Exibe uma lista dos arquivos em um diretório. </p>
+                               </div>
+
+
+                               
+                              <h4 style="color: blue;" >Pesquisa </h4>
+     
+                              <div class="card">
+                                  <p id="card33"> 	O comando "Pesquisa" no shell se refere a um conjunto de comandos e ferramentas que permitem pesquisar arquivos ou diretórios com base em vários critérios, como nome, tamanho, tipo de arquivo e assim por diante.
+                                    find:	Pesquisa arquivos e diretórios em um sistema de arquivos com base em critérios específicos, como nome, tipo, tamanho e data de modificação.
+                                    grep:	Procura um padrão específico em um arquivo de texto e exibe todas as linhas que correspondem ao padrão.
+                                    locate:	 Localiza arquivos e diretórios em um sistema de arquivos com base em seu nome.
+                                    whereis:	Localiza os arquivos binários, páginas de manual e código-fonte associados a um comando específico.
+                                    which:	Localiza o caminho completo de um comando executável especificado. </p>
+                               </div>
+
+
+                               
+                              <h4 style="color: blue;" >Ferramentas de edição de texto </h4>
+     
+                              <div class="card">
+                                  <p id="card34"> 	Existem várias ferramentas de edição de texto disponíveis no shell que permitem editar arquivos de texto diretamente no terminal ou console.
+                                    vi / vim:	O Vi é um dos editores de texto mais antigos e comuns em sistemas Unix e Linux. O Vim é uma versão melhorada do Vi e oferece recursos adicionais, como ressaltamento de sintaxe e suporte para plugins.
+                                    nano:	O Nano é um editor de texto simples e fácil de usar que é frequentemente usado por iniciantes.
+                                    emacs:	O Emacs é um editor de texto altamente personalizável e poderoso que oferece muitos recursos avançados, como suporte para várias linguagens de programação.
+                                    sed:	O Sed é uma ferramenta de edição de texto baseada em linha de comando que permite fazer edições em lote em arquivos de texto usando expressões regulares.
+                                    awk:	O Awk é uma ferramenta de processamento de texto que permite trabalhar com arquivos de texto baseados em colunas. </p>
+                               </div>
+
+                               <h3 style="color: blueviolet;" >Categorias de Software</h3>
+                               
+                              <h4 style="color: blue;" >Software do sistema </h4>
+     
+                              <div class="card">
+                                  <p id="card35"> O software do sistema é o software que gerencia e controla o hardware do computador. Ele fornece serviços básicos, como gerenciamento de arquivos, gerenciamento de memória, controle de dispositivos de entrada e saída e gerenciamento de recursos do sistema. Exemplos de software do sistema incluem sistemas operacionais, drivers de dispositivo e utilitários do sistema. </p>
+                               </div>
+
+
+                               
+                              <h4 style="color: blue;" >Software de aplicativos </h4>
+     
+                              <div class="card">
+                                  <p id="card35"> O software de aplicativos é o software que permite que os usuários realizem tarefas específicas. Ele é usado para criar documentos, gerenciar bancos de dados, enviar e-mails, navegar na Internet e muito mais. Exemplos de software de aplicativos incluem processadores de texto, planilhas eletrônicas, programas de edição de fotos, navegadores da web e clientes de e-mail. </p>
+                               </div>
+
+
+                               
+                              <h4 style="color: blue;" >Software de programação </h4>
+     
+                              <div class="card">
+                                  <p id="card35"> O software de programação é o software usado para criar outros softwares. Ele inclui linguagens de programação, compiladores, editores de texto, ambientes de desenvolvimento integrados (IDEs) e outras ferramentas usadas por programadores e desenvolvedores de software. </p>
+                               </div>
+
+
+                               
+                              <h4 style="color: blue;" >Software de segurança </h4>
+     
+                              <div class="card">
+                                  <p id="card35"> O software de segurança é usado para proteger os computadores e os dados contra ameaças, como vírus, malware, spyware e ataques cibernéticos. Exemplos de software de segurança incluem antivírus, firewalls, programas de criptografia e programas de monitoramento de atividades de rede. </p>
+                               </div>
+
+
+                               
+                              <h4 style="color: blue;" >Software de entretenimento </h4>
+     
+                              <div class="card">
+                                  <p id="card35"> O software de entretenimento é usado para fins de lazer, como jogos de computador, programas de televisão e filmes. Esses softwares são projetados para entreter os usuários e podem incluir elementos de simulação, estratégia, aventura e ação. </p>
+                               </div>
+
+                               <h4 style="color: blue;" >Software de entretenimento </h4>
+     
+
+
+
+<script>
+    /*
+    A memória RAM é a memória principal
+    Quando criamos uma variável
+    armazenamos dados na variável
+    */
+    var msg ="Seja Bem-Vindo ao novo curso da DFTech, Hoje dia "
+    const dataAtual = new Date();
+    const dataFormatada = dataAtual.toLocaleDateString('pt-br');
+    alert(msg+" "+dataFormatada+" é o começo de uma nova etapa da sua carreira.")
+    console.log(msg+" "+dataFormatada)
+
+</script>
 </body>
 </html>
